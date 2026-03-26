@@ -17,12 +17,6 @@ STRICT RULES:
   - agents
   - team
   - main()
-CRITICAL OUTPUT RULES:
-- Output raw Python code
-- DO NOT escape symbols: newlines (\n), backslashes (\\) etc.
-- DO NOT wrap code in JSON strings
-- Use real line breaks
-- Output ONLY a markdown block:
 
 OUTPUT FORMAT:
 
