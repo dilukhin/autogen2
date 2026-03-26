@@ -48,13 +48,11 @@ async def main():
     print("=== RAW PHASE 2 ===")
     print(text2)
 
-    code = extract_code_block(text2)
+    code = extract_code_auto(text2)
 
     if not code:
         print("ERROR: CODE not generated")
         return
-
-    code = try_unescape(code)
 
     print("[Phase2] Code extracted and normalized")
 
