@@ -1,4 +1,3 @@
-```
 # Python
 __pycache__/
 *.pyc
@@ -13,4 +12,3 @@ __pycache__/
 
 # Generated files
 generated_system.py
-```
