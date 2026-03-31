@@ -1,22 +1,14 @@
-# Ключи и секреты
-.env
-*.key
-*.secret
-
-# Логи
-logs/
-*.log
-
-# Базы данных и кэш
-*.sqlite
-*.db
+# Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-# Временные файлы
-.tmp
-.temp
+# Environment
+.env
 
-project.md
-update_bundle.bat
-generated_system.py 
+# Logs
+*.log
+
+# Generated files
+generated_system.py

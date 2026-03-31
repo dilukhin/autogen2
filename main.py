@@ -7,8 +7,7 @@ from models import architect_model, builder_model
 from phase0_model_selector import load_models, filter_models
 from phase1_architect import create_architect_agent, build_architect_prompt
 from phase2_builder import create_builder_agent, build_builder_prompt
-from utils import extract_json_block
-from utils import extract_code_auto
+from utils import extract_json_block, extract_code_block, try_unescape
 
 async def main():
     task = """
