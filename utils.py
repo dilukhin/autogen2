@@ -24,7 +24,8 @@ def try_unescape(code: str) -> str:
     # если выглядит как экранированная строка
     if "\\n" in code or "\\t" in code or "\\\\" in code:
         try:
-            return ast.literal_eval(f'"""{code}"""')
+            # Пробуем decode unicode escape
+            return code.encode('utf-8').decode('unicode_escape')
         except Exception:
             pass
 
