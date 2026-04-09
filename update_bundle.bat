@@ -1,0 +1,1 @@
+bundle.py . -p "*.py" --no-binary-backup *.* -o project-autogen.md
